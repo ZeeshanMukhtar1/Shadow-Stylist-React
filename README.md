@@ -6,7 +6,9 @@ This is a Box Shadow Generator App built using `create-react-app` utility. With 
 
 - Generate box shadow CSS code with customizable properties
 - Preview the box shadow in real-time
-- Copy the CSS code to clipboard with a single click
+- Copy the CSS code to clipboard with a single click   
+ 
+ ***[Live preview ](https://zeeshanmukhtar1.github.io/Shadow-Stylist-React/)***
 
 ### How to use
 
