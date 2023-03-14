@@ -1,0 +1,130 @@
+/* font for controls */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@1,500&display=swap');
+/* font for app name */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+body{
+   background-color: #282A3A;
+}
+.App{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 100vh;
+  }
+  .appName{
+    font-size: 1rem;
+    display: grid;
+    place-items: center;
+    color: rgb(16, 215, 237);
+    text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+  }
+   
+  .controls{
+   font-size: 20px;
+   color: #FFFFFF;
+     width: 40vw;
+     border: 3px solid white;
+     border-radius: 5px;
+    background-color:  black;
+     padding: 20px;
+     font-family: 'Fira Sans Condensed', sans-serif;
+      box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+     
+  }
+.box{
+   width: 40vw;
+   height: 50vh;
+   padding: 20vh 0px;
+   text-align: center;
+   background-color: #37306B;
+   color: white;
+   font-family: 'Fira Sans Condensed', sans-serif;
+}
+.App {
+   display: flex;
+   flex-direction: column;
+ }
+ .controls {
+   order: 1;
+ }
+ .output {
+   order: 2;
+ }
+ .btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 1rem;
+}
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+ @media (min-width: 768px) {
+   .App {
+     flex-direction: row;
+   }
+  
+   .controls {
+     order: 0;
+   }
+   
+   .output {
+     order: 0;
+   }
+ }
+ 
+ @media (max-width: 767px) {
+   .App {
+     display: block;
+   }
+   .controls {
+     order: 1;
+     margin-bottom: 20px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 5vh;
+   }
+   .output {
+     order: 2;
+     margin-top: 20px;
+     display: grid;
+     place-items: center;
+   }
+ }
+ @media only screen and (max-width: 768px) {
+  .controls {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .output {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .box{
+     width: 90%;
+     height: 200px;
+     font-size: 12px;
+  }
+}
