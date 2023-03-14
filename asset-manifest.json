@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Shadow-Stylist-React/static/css/main.89067cc3.css",
+    "main.js": "/Shadow-Stylist-React/static/js/main.d044f44d.js",
+    "static/js/787.a4587ce9.chunk.js": "/Shadow-Stylist-React/static/js/787.a4587ce9.chunk.js",
+    "index.html": "/Shadow-Stylist-React/index.html",
+    "main.89067cc3.css.map": "/Shadow-Stylist-React/static/css/main.89067cc3.css.map",
+    "main.d044f44d.js.map": "/Shadow-Stylist-React/static/js/main.d044f44d.js.map",
+    "787.a4587ce9.chunk.js.map": "/Shadow-Stylist-React/static/js/787.a4587ce9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89067cc3.css",
+    "static/js/main.d044f44d.js"
+  ]
+}
